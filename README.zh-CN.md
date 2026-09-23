@@ -1,5 +1,9 @@
 # hfpclawer
 
+[![Docs](https://img.shields.io/badge/docs-diamond2nv.github.io%2Fhfpclawer-blue)](https://diamond2nv.github.io/hfpclawer/)
+[![PyPI](https://img.shields.io/pypi/v/hfpclawer)](https://pypi.org/project/hfpclawer/)
+[![License](https://img.shields.io/github/license/diamond2nv/hfpapers-crawler)](https://github.com/diamond2nv/hfpapers-crawler/blob/master/LICENSE)
+
 **精确地"爪"论文。** 一个本地优先的命令行工具：多源检索 → 适配国内链路的全文抓取 →
 可验证的本地论文库 → 供 Agent 使用的信号。
 

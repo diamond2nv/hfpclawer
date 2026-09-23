@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{#
+  Bilingual alternate links.
+
+  Chinese is the default language at the site root, English lives under /en/. Search engines use
+  these to serve the right language version; x-default points at the Chinese root because that is
+  the primary audience.
+#}
+{% block extrahead %}
+  {%- set base = config.site_url -%}
+  {%- set url = page.url if page and page.url else '' -%}
+  {%- if url.startswith('en/') -%}
+    {%- set zh_url = base ~ url[3:] -%}
+    {%- set en_url = base ~ url -%}
+  {%- else -%}
+    {%- set zh_url = base ~ url -%}
+    {%- set en_url = base ~ 'en/' ~ url -%}
+  {%- endif -%}
+  <link rel="alternate" hreflang="zh-CN" href="{{ zh_url }}">
+  <link rel="alternate" hreflang="en" href="{{ en_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ zh_url }}">
+{% endblock %}

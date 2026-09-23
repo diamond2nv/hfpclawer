@@ -1,5 +1,9 @@
 # hfpclawer
 
+[![Docs](https://img.shields.io/badge/docs-diamond2nv.github.io%2Fhfpclawer-blue)](https://diamond2nv.github.io/hfpclawer/)
+[![PyPI](https://img.shields.io/pypi/v/hfpclawer)](https://pypi.org/project/hfpclawer/)
+[![License](https://img.shields.io/github/license/diamond2nv/hfpapers-crawler)](https://github.com/diamond2nv/hfpapers-crawler/blob/master/LICENSE)
+
 **Claw papers with precision.** A local-first command-line tool for academic literature:
 multi-source search → CN-aware full-text fetching → a verifiable local paper store →
 signals an agent can use.

@@ -1,0 +1,53 @@
+site_name: hfpclawer
+site_description: 多源论文检索 · TCP→QUIC 抓取 · 可验证论文库 · Zotero 回写 · Agent 技能 —— hfpclawer 用户文档
+site_url: https://diamond2nv.github.io/hfpclawer/
+docs_dir: docs
+copyright: MIT · hfpclawer
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.top
+    - navigation.sections
+    - content.code.copy
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: 切到深色
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: 切到浅色
+
+nav:
+  - 首页: index.md
+  - 安装: install.md
+  - 使用: usage.md
+  - 常见问题: faq.md
+  - 术语表: glossary.md
+  - English:
+      - Home: en/index.md
+      - Install: en/install.md
+      - Usage: en/usage.md
+      - FAQ: en/faq.md
+      - Glossary: en/glossary.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+
+hooks:
+  - hooks/zh_slugify.py
+
+plugins:
+  - search

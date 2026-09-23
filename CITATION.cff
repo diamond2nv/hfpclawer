@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: hfpclawer
+message: "If you use hfpclawer in academic work, please cite it using these metadata."
+type: software
+authors:
+  - name: "Li Shen"
+repository-code: "https://github.com/diamond2nv/hfpapers-crawler"
+url: "https://pypi.org/project/hfpclawer/"
+version: 0.19.0
+license: MIT
+abstract: >-
+  A local-first command-line tool for academic literature: multi-source paper search,
+  CN-aware full-text fetching with a TCP/QUIC transport ladder and hash-audited downloads,
+  a SQLite paper store with an explicit verification state machine, citation-graph
+  exploration, local-only recommendations, and an MCP server for agent integration.
+keywords:
+  - academic literature
+  - paper search
+  - arXiv
+  - QUIC
+  - Zotero
+  - MCP
+  - research tooling
+  - command-line

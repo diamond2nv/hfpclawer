@@ -1,0 +1,16 @@
+# mkdocs build output
+site/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# editors / os
+.DS_Store
+.idea/
+.vscode/
+
+# local preview helper (symlink to site/)
+_serve/

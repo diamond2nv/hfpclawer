@@ -1,0 +1,16 @@
+# hfpclawer — 文档索引（给 LLM / 答案引擎）
+
+> hfpclawer 是一个本地优先的学术论文命令行工具：多源检索 → 适配国内链路的全文抓取 →
+> 可验证的本地论文库（SQLite）→ 供 Agent 使用的信号（CLI + MCP + 技能）。
+
+- [hfpclawer 是什么](https://diamond2nv.github.io/hfpclawer/)：定位、三个典型用法、与相邻工具的边界
+- [安装](https://diamond2nv.github.io/hfpclawer/install.html)：uv/pip、13 个可选 extras、两个常见坑
+- [使用](https://diamond2nv.github.io/hfpclawer/usage.html)：检索 / 抓取 / 库与状态机 / 图与多跳 / 推荐 / Zotero / MCP
+- [常见问题](https://diamond2nv.github.io/hfpclawer/faq.html)：是否上传数据、要不要 API key、国内链路、版本口径
+- [术语表](https://diamond2nv.github.io/hfpclawer/glossary.html)：claw vs crawler、验证状态机、三层画像…
+
+其他地方：
+- 安装包（PyPI）：https://pypi.org/project/hfpclawer/
+- 代码 / 测试 / 发布（唯一真身）：https://github.com/diamond2nv/hfpapers-crawler
+- Agent 技能（ClawHub）：https://clawhub.ai/diamond2nv
+- English docs: https://diamond2nv.github.io/hfpclawer/en/
